@@ -1,0 +1,22 @@
+# -/.dotfiles/Brewfile
+# Applications go in this directory
+cask_args appdir: '/Applications'
+
+# Install scripts
+brew "emacs"
+brew "exercism"
+brew "git"
+brew "icu4c"
+brew "node"
+brew "openssl"
+brew "postgresql"
+brew "readline"
+brew "wget"
+
+# Create Cask for apps
+tap "caskroom/cask"
+
+# Install apps
+cask "google-chrome"
+cask "iterm2"
+cask "dropbox"
